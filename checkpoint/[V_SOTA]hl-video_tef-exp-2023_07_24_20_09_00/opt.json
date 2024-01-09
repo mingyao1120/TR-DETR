@@ -4,7 +4,7 @@
     "eval_split_name": "val",
     "debug": false,
     "data_ratio": 1.0,
-    "results_root": "results-new-HelpMR2HD-abi",
+    "results_root": "results",
     "exp_id": "exp",
     "seed": 2017,
     "device": 0,
@@ -31,10 +31,10 @@
     "no_norm_vfeat": false,
     "no_norm_tfeat": false,
     "v_feat_dirs": [
-        "/Disks/4TDisk/zmy/datasets/QD-DETR/QVHighlights/qvhighlights/slowfast_features",
-        "/Disks/4TDisk/zmy/datasets/QD-DETR/QVHighlights/qvhighlights/clip_features"
+        ".../",
+        ".../"
     ],
-    "t_feat_dir": "/Disks/4TDisk/zmy/datasets/QD-DETR/QVHighlights/qvhighlights/clip_text_features/",
+    "t_feat_dir": ".../",
     "a_feat_dir": null,
     "v_feat_dim": 2816,
     "t_feat_dim": 512,
@@ -75,5 +75,5 @@
     "nms_thd": -1,
     "VTC_loss_coef": 0.3,
     "CTC_loss_coef": 0.5,
-    "results_dir": "[abilation-components]results-abi/hl-video_tef-exp-2023_07_24_20_09_00_SOTA"
+    "results_dir": "..."
 }
