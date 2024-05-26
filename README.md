@@ -16,7 +16,7 @@ by Hao Sun<sup>* 1</sup>, Mingyao Zhou<sup>* 1</sup>, Wenjing Chen<sup>†2</sup
 
 <b>QVHighlights</b> : Download official feature files for QVHighlights dataset from Moment-DETR. 
 
-Download [moment_detr_features.tar.gz]([https://drive.google.com/file/d/1Hiln02F1NEpoW8-iPZurRyi-47-W2_B9/view?usp=sharing](https://drive.google.com/file/d/1LXsZZBsv6Xbg_MmNQOezw0QYKccjcOkP/view) (8GB), 
+Download [moment_detr_features.tar.gz](https://drive.google.com/file/d/1LXsZZBsv6Xbg_MmNQOezw0QYKccjcOkP/view) (8GB), 
 extract it under '../features' directory.
 You can change the data directory by modifying 'feat_root' in shell scripts under 'tr_detr/scripts/' directory.
 
