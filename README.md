@@ -84,18 +84,14 @@ Best results are stored in 'results_[domain_name]/best_metric.jsonl'.
 If you find this repository useful, please use the following entry for citation.
 
 ```
-@article{Sun_Zhou_Chen_Xie_2024, 
-  title={TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection}, 
-  volume={38}, 
-  url={https://ojs.aaai.org/index.php/AAAI/article/view/28304}, 
-  DOI={10.1609/aaai.v38i5.28304}, 
-  abstractNote={Video moment retrieval (MR) and highlight detection (HD) based on natural language queries are two highly related tasks, which aim to obtain relevant moments within videos and highlight scores of each video clip. Recently, several methods have been devoted to building DETR-based networks to solve both MR and HD jointly. These methods simply add two separate task heads after multi-modal feature extraction and feature interaction, achieving good performance. Nevertheless, these approaches underutilize the reciprocal relationship between two tasks. In this paper, we propose a task-reciprocal transformer based on DETR (TR-DETR) that focuses on exploring the inherent reciprocity between MR and HD. Specifically, a local-global multi-modal alignment module is first built to align features from diverse modalities into a shared latent space. Subsequently, a visual feature refinement is designed to eliminate query-irrelevant information from visual features for modal interaction. Finally, a task cooperation module is constructed to refine the retrieval pipeline and the highlight score prediction process by utilizing the reciprocity between MR and HD. Comprehensive experiments on QVHighlights, Charades-STA and TVSum datasets demonstrate that TR-DETR outperforms existing state-of-the-art methods. Codes are available at https://github.com/mingyao1120/TR-DETR.}, 
-  number={5}, 
-  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
-  author={Sun, Hao and Zhou, Mingyao and Chen, Wenjing and Xie, Wei}, 
-  year={2024}, 
-  month={Mar.}, 
-  pages={4998-5007} 
+@inproceedings{sun_zhou2024tr,
+  title={Tr-detr: Task-reciprocal transformer for joint moment retrieval and highlight detection},
+  author={Sun, Hao and Zhou, Mingyao and Chen, Wenjing and Xie, Wei},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={5},
+  pages={4998--5007},
+  year={2024}
 }
 ```
 
