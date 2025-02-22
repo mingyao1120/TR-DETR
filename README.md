@@ -13,7 +13,7 @@ by Hao Sun<sup>* 1</sup>, Mingyao Zhou<sup>* 1</sup>, Wenjing Chen<sup>†2</sup
 ### 0. Clone this repository
 
 ```
-git clone https://github.com/mingyao1120/tr_detr.git
+git clone https://github.com/mingyao1120/TR-DETR.git
 cd tr_detr
 ```
 
